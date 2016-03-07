@@ -1,0 +1,26 @@
+.footer {
+   background-image: image-url("footer.jpg");
+   height:300px;
+   width:100%;
+}
+
+
+
+.footer .row {
+  margin-top:30px;
+}
+
+.footer li {
+  list-style: none;
+  color:white;
+}
+
+.footer a {
+  color:white;
+}
+
+.footer h6 {
+  color: white;
+  font-size: 25px;
+  font-weight:lighter;
+}
