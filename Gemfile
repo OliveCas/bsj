@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.4'
 
 gem 'middleman', '~> 3.4'
 
@@ -10,3 +11,4 @@ gem 'jquery-middleman'
 gem 'bootstrap-sass', '3.3.6'
 gem 'font-awesome-sass', '4.5.0'
 gem 'middleman-autoprefixer'
+
