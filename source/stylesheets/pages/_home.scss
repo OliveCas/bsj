@@ -1,0 +1,66 @@
+.background-hero {
+  width:100%;
+  height:300px;
+}
+
+.bg-hero {
+  width:100%;
+  height:auto;
+  margin:auto;
+  position:center;
+}
+
+.baseline {
+  background-color:#FFF;
+  width:100%;
+  height:150px;
+}
+
+.baseline h1 {
+  font-size:50px;
+  clor:#E2E2E4;
+  font-familly:"open-sans";
+  font-weight:lighter;
+}
+
+
+.welcome {
+
+}
+
+.welcome h1 {
+  color:#30B9E9;
+}
+
+.welcome .intro {
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+.welcome .row {
+  margin-top: 40px;
+  margin-bottom:100px;
+}
+
+.welcome {
+  background-color: #E4E4E6;
+}
+
+
+.welcome .image {
+  height:120px;
+  width:auto;
+
+}
+
+.welcome .text {
+  padding:2px;
+  text-align:left;
+  // margin-left:30px;
+  // margin-right:50px;
+}
+
+.welcome .intro .image .cafe-png {
+  border-radius:4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
