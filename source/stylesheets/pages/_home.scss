@@ -13,7 +13,8 @@
 .baseline {
   background-color:#FFF;
   width:100%;
-  height:150px;
+  height:110px;
+  margin-top:30px;
 }
 
 .baseline h1 {
@@ -39,14 +40,41 @@
 
 .welcome .row {
   margin-top: 40px;
-  margin-bottom:100px;
+  margin-bottom:30px;
 }
 
 .welcome {
-  background-color: #E4E4E6;
+  background-color: #E2E1E4;
+}
+
+.products {
+  margin-top: 30px;
+  margin-bottom:20px;
+}
+
+.home-icons {
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+.home-icons .cta-button {
+  margin-top:20px;
+}
+
+.home-icons h4 {
+  font-size:24px;
+  font-weight:lighter;
+}
+
+.home-icons p {
+  font-weight:lighter;
 }
 
 
+.home-icons .icon {
+  height:50px;
+  width:auto;
+}
 .welcome .image {
   height:120px;
   width:auto;
@@ -54,13 +82,32 @@
 }
 
 .welcome .text {
+  width:75%;
   padding:2px;
   text-align:left;
+  font-weight:lighter;
   // margin-left:30px;
   // margin-right:50px;
 }
 
-.welcome .intro .image .cafe-png {
+.welcome .cafe-png {
   border-radius:4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+  padding: 0 10px;
+  padding-right:12px;
+  padding-left:12px;
+  border-radius:3%;
+  line-height: 34px;
+  background-color: #30B9E9;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #30B9E9;
+}
+.cta-button:hover {
+  color: white;
+  background: #86d801;
+  border-color: #86d801;
 }

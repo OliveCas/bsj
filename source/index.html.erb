@@ -2,11 +2,14 @@
 title: Café Parisien | Brûlerie Saint Jacques
 ---
 <div class="background-hero">
-    <% link_to "/", class: "bg-hero" do %>
+  <div class="col-xs-12 col-sm-12">
+    <%# link_to "http://www.google.com", class: "bg-hero" do %>
       <%= image_tag "hero-section.png" %>
-    <% end %>
+    <%# end %>
+  </div>
 </div>
-<div class="container padded">
+
+<div class="container">
 </div>
 <div class="baseline text-center">
     <div class="row">
@@ -16,20 +19,49 @@ title: Café Parisien | Brûlerie Saint Jacques
     </div>
 </div>
 
-<div class="welcome text-center padded">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-8 cell-xs-offset-2">
-        <h4 class="text-left">Notre histoire</h4>
+<div class="container text-center">
+  <div class="row home-icons">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+      <div class="col-xs-12 col-sm-4 text-center">
+        <%= image_tag "./icons/cof-noun.png", class:"icon" %>
+        <h4 class="title">Petichum Robert Mitchum</h4>
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolores.</p>
+        <a href="" class="cta-button btn">En savoir +</a>
+      </div>
+      <div class="col-xs-12 col-sm-4 text-center">
+        <%= image_tag "./icons/grain-noun.png", class:"icon" %>
+        <h4 class="title">Manequinis Hadriatum</h4>
+        <p>Quis nostrud exercitation ullamco ut labore laboris ut labore nisi exercitation ullamco.</p>
+        <a href="" class="cta-button btn">En savoir +</a>
+      </div>
+      <div class="col-xs-12 col-sm-4 text-center">
+        <%= image_tag "./icons/mill-noun.png", class:"icon" %>
+        <h4 class="title">Casassus Santi</h4>
+        <p>Tempor incididunt ut labore et dolore magna ut labore ut labore exercitation ullamco.</p>
+        <a href="" class="cta-button btn">En savoir +</a>
       </div>
     </div>
+    <div class="col-sm-1">
+    </div>
+  </div>
+</div>
+
+<div class="welcome text-center">
+  <div class="container">
     <div class="row">
-        <div class="col-xs-2 cell-offset-2 image">
-          <%= image_tag "coffee-solves.png", class:"cafe-png" %>
-        </div>
-        <div class="cell-offset-3 col-xs-5">
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,   sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-3 ">
+        <%= image_tag "coffee-solves.png", class:"cafe-png" %>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-sm-offset-2 ">
+        <h3 class="text-left">Notre histoire</h3>
+        <p class="text">Nous sommes passionés de café depuis 10 ans.</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo   consequat.</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <a href="" class="cta-button btn">Voir video</a>
     </div>
     <!-- <div class="row">
       <div class="col-xs-8 row offset-4">
@@ -41,5 +73,19 @@ title: Café Parisien | Brûlerie Saint Jacques
         </div>
       </div>
     </div> -->
+  </div>
+</div>
+
+<div class="products text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-xs-12 col-sm-8">
+        <h3 class="text">Produits</h3>
+        <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        <p class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
   </div>
 </div>
