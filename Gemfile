@@ -15,3 +15,4 @@ gem 'middleman-autoprefixer'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 
+gem 'rack-contrib',
